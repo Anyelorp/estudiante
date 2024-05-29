@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Alumno;
-use IlluminateSupportFacadesRoute;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\alumnoController;
+
 
 class AlumnoController extends Controller
 {

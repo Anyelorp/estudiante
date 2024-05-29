@@ -91,6 +91,19 @@ return [
             'prefix_indexes' => true,
             // 'encrypt' => env('DB_ENCRYPT', 'yes'),
             // 'trust_server_certificate' => env('DB_TRUST_SERVER_CERTIFICATE', 'false'),
+
+            'mongodb' => [
+                'driver'   => 'mongodb',
+                'host'     => env('MONGODB_HOST', 'localhost'),
+                'port'     => env('MONGODB_PORT', 27017),
+                'database' => env('MONGODB_DATABASE', 'estudiante'),
+                'username' => env('MONGODB_USERNAME','root'),
+                'password' => env('MONGODB_PASSWORD'),
+                'options'  => [
+                    'database' => 'admin' // sets the authentication database required by mongo 3
+                ]
+            ],
+            
         ],
 
     ],

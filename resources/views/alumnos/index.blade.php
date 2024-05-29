@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="mb-4">Listado de Alumnos</h1>
+        <h1 class="mb-4">LISTADO DE ALUMNOS</h1>
 
         @if (session('success'))
             <div class="alert alert-success">
